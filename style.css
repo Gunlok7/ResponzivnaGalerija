@@ -5,7 +5,7 @@ body {position: fixed;top:0;bottom:0;left:0;right:0; background-image: url("slik
 @media screen and (min-width:1024px) {
     .grid1 {grid-template-columns: 1fr 1fr 1fr 1fr 1fr;}
      div.over {display: grid;max-width: 180px;max-height: 150px;padding: 25px;row-gap: 80px;column-gap: 25px;
-    position: absolute;grid-template-columns: 1fr 1fr 1fr 1fr 1fr;align-items:}
+    position: absolute;grid-template-columns: 1fr 1fr 1fr 1fr 1fr;}
     .s1,.s2,.s3,.s4,.s5,.s6,.s7,.s8,.s9,.s10 {border: 5px solid lightslategray;border-radius: 4px;background-color: lightslategrey;}
 p {background-color: lightslategrey;text-align: center;}
 .grid1 {position:absolute;display: grid;max-width: 180px;max-height: 150px;padding: 15px;row-gap: 15px;column-gap: 15px;}
@@ -29,7 +29,7 @@ p {font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; col
 @media screen and (max-width:1024px) {
     .grid1 {grid-template-columns: 1fr 1fr 1fr 1fr 1fr;}
      div.over {display: grid;max-width: 180px;max-height: 150px;padding: 25px;row-gap: 80px;column-gap: 25px;
-    position: absolute;grid-template-columns: 1fr 1fr 1fr 1fr 1fr;align-items:}
+    position: absolute;grid-template-columns: 1fr 1fr 1fr 1fr 1fr;}
 
 
     
@@ -40,7 +40,4 @@ p {font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; col
         position: absolute;grid-template-columns: 1fr;}
         body {overflow: scroll;}
 }
-
-
-
-
+}
