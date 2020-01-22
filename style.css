@@ -1,0 +1,19 @@
+* {box-sizing: border-box;}
+.galerija {border-top: 20px;border-bottom: 20px;border-left: 1px;border-right: 1px;border: solid;
+border-color: lightgray;background-color: lightskyblue;border-radius: 4px;width: 180px;height: 150px;margin: 5px}
+img {border-radius: 10px;width: 100%;height: auto;}
+.ispod {padding:2.5px;text-align: center;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;background-color: lightgray;}
+.rpg {padding: 10px 10px;float: left;width: 20%;}
+h1 {margin-left: 1.6%;}
+@media only screen and (max-width:1024px)
+{
+.rpg {width: 30%};
+}
+@media only screen and (max-width:768px)
+{
+    .rpg {width: 90%;}
+
+}
+p {font-family: 'Courier New', Courier, monospace;position: relative;margin-top: 70%;}
+
+
